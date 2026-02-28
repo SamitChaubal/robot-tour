@@ -13,6 +13,8 @@ input.onButtonPressed(Button.A, function () {
     motion.stop()
     basic.pause(100)
     motion.drive(40, -40)
+    basic.pause(320)
+    motion.stop()
 })
 input.onButtonPressed(Button.B, function () {
 	
