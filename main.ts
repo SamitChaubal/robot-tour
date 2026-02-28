@@ -1,0 +1,19 @@
+input.onButtonPressed(Button.A, function () {
+    basic.pause(1000)
+    motion.driveStraight(60)
+    basic.pause(500)
+    motion.stop()
+    basic.pause(100)
+    motion.driveStraight(60)
+    basic.pause(915)
+    motion.stop()
+    basic.pause(100)
+    motion.drive(-60, 60)
+    basic.pause(290)
+    motion.stop()
+    basic.pause(100)
+    motion.drive(40, -40)
+})
+input.onButtonPressed(Button.B, function () {
+	
+})
